@@ -14,7 +14,7 @@ body{
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
     
         color: #000000;
@@ -28,8 +28,9 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
+    color: #212121;
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
@@ -39,7 +40,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: #757575;
@@ -53,7 +54,7 @@ color: #2196F3;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1.88;
         
         display: flex;
         align-items: center;
@@ -62,6 +63,9 @@ color: #2196F3;
         background-color: #188CE8;
         color: #FFFFFF;
         cursor: pointer;
+}
+.section-main{
+    background-color: #2F303A;
 }
 .main-title{
         font-style: normal;
@@ -78,7 +82,7 @@ color: #2196F3;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.17;
         text-align: center;
         letter-spacing: 0.03em;
     
@@ -87,7 +91,7 @@ color: #2196F3;
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
@@ -96,7 +100,7 @@ color: #2196F3;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
     
@@ -106,29 +110,49 @@ color: #2196F3;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.19px;
         text-align: center;
         letter-spacing: 0.03em;
     
         color: #757575;
 }
-
+.footer{
+    background-color: #2F303A; 
+}
 .contact-futer {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         letter-spacing: 0.03em;
-    
+             
         color: rgba(255, 255, 255, 0.6);
 
 }
 /* ==============START PORTFOLIO============== */
+.portfolio-name-img{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+.portfolio-about-img{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+
 .contact-futer-addres{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -144,7 +168,7 @@ color: #2196F3;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 1.63;
        
         text-align: center;
         letter-spacing: 0.03em;
