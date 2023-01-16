@@ -1,6 +1,12 @@
+:root{
+--primari-font-family: 'Roboto', sans-serif;
+--secondary-font-family: 'Raleway', sans-serif;
+--primary-text-color-studio: #212121;
+--secondary-text-color-studio: #757575;
+}
 body{
-    font-family: 'Roboto', sans-serif;
-    color: #212121;
+    font-family: var(--primari-font-family);
+    color: var(--primary-text-color-studio);
 }
 .list{
     list-style: none;
@@ -10,7 +16,7 @@ body{
 }
 
 .logo{
-    font-family: 'Raleway', sans-serif ;
+    font-family: var(--secondary-font-family) ;
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
@@ -25,20 +31,19 @@ body{
 }
 
 .nav-list-link{
-    color: #212121;
+    color: var(--primary-text-color-studio);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
     color: #2196F3;
 }
 
- /* .visited_studio:visited{
+  .visited_studio:visited{
     color: #64f321;
 }
 
@@ -48,7 +53,7 @@ body{
  
 .visited_contacts:visited {
     color: #64f321;
-} */
+} 
 .contact-header{
     font-style: normal;
     font-weight: 500;
@@ -56,7 +61,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #757575;
+    color: var(--secondary-text-color-studio);
 
 }
 .contact-header:hover,
@@ -127,7 +132,7 @@ color: #2196F3;
         text-align: center;
         letter-spacing: 0.03em;
     
-        color: #757575;
+        color: var(--secondary-text-color-studio);
 }
 .footer{
     background-color: #2F303A; 
@@ -149,7 +154,7 @@ color: #2196F3;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: #212121;
+        color: var(--primary-text-color-studio);
 }
 .portfolio-about-img{
         font-style: normal;
@@ -158,7 +163,7 @@ color: #2196F3;
         line-height: 1.88;
         letter-spacing: 0.03em;
     
-        color: #757575;
+        color: var(--secondary-text-color-studio);
 }
 
 .contact-futer-addres{
