@@ -37,6 +37,17 @@ body{
     color: #2196F3;
 }
 
+ .nav-list .link:visited{
+    color: #64f321;
+}
+
+.nav-list .visited_link:visited {
+    color: #64f321;
+}
+ 
+.nav-list .visited_link:visited {
+    color: #64f321;
+}
 .contact-header{
     font-style: normal;
     font-weight: 500;
