@@ -25,6 +25,7 @@ body{
 }
 
 .nav-list-link{
+    color: #212121;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -37,17 +38,17 @@ body{
     color: #2196F3;
 }
 
- .nav-list .link:visited{
+ /* .visited_studio:visited{
     color: #64f321;
 }
 
-.nav-list .link:visited {
+.visited_portfolio:visited{
     color: #64f321;
 }
  
-.nav-list .link:visited {
+.visited_contacts:visited {
     color: #64f321;
-}
+} */
 .contact-header{
     font-style: normal;
     font-weight: 500;
