@@ -3,6 +3,9 @@
 --secondary-font-family: 'Raleway', sans-serif;
 --primary-text-color-studio: #212121;
 --secondary-text-color-studio: #757575;
+--hover_focus-color:#2196F3;
+--section-secondary-color: #F5F4FA;
+--section-main-color: #2F303A;
 }
 body{
     font-family: var(--primari-font-family);
@@ -26,7 +29,7 @@ body{
         color: #000000;
 }
 .logo-start {
-    color: #2196F3;
+    color: var(--hover_focus-color);
 
 }
 
@@ -39,21 +42,13 @@ body{
     letter-spacing: 0.02em;
 }
 .nav-list-link:hover,
-.nav-list-link:focus {
-    color: #2196F3;
-}
-
-  .visited_studio:visited{
-    color: #64f321;
-}
-
-.visited_portfolio:visited{
-    color: #64f321;
+.nav-list-link:focus,
+.visited_studio:visited,
+.visited_portfolio:visited
+{
+    color: var(--hover_focus-color);
 }
  
-.visited_contacts:visited {
-    color: #64f321;
-} 
 .contact-header{
     font-style: normal;
     font-weight: 500;
@@ -83,7 +78,7 @@ color: #2196F3;
         cursor: pointer;
 }
 .section-main{
-    background-color: #2F303A;
+    background-color: var(--section-main-color);
 }
 .main-title{
         font-style: normal;
@@ -114,6 +109,21 @@ color: #2196F3;
         text-transform: uppercase;
     
 }
+.section-secondary{
+    
+background-color: var(--section-secondary-color);
+}
+.about-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color-studio);
+
+}
 .name-img{
         font-style: normal;
         font-weight: 500;
@@ -134,8 +144,11 @@ color: #2196F3;
     
         color: var(--secondary-text-color-studio);
 }
+.logo-footer {
+    color: #FFFFFF;
+}
 .footer{
-    background-color: #2F303A; 
+    background-color: var(--section-main-color); 
 }
 .contact-futer {
         font-style: normal;
@@ -148,6 +161,7 @@ color: #2196F3;
 
 }
 /* ==============START PORTFOLIO============== */
+
 .portfolio-name-img{
         font-style: normal;
         font-weight: 700;
@@ -179,7 +193,7 @@ color: #2196F3;
 .contact-futer:focus,
 .contact-futer-addres:hover,
 .contact-futer-addres:focus {
-    color: #2196F3;
+    color: var(--hover_focus-color);
 }
 
 .portfolio-butn{
@@ -190,13 +204,14 @@ color: #2196F3;
        
         text-align: center;
         letter-spacing: 0.03em;
-    cursor: pointer;
+        cursor: pointer;
+        background-color: var(--section-secondary-color);
         
 
 }
 .portfolio-butn:hover,
 .portfolio-butn:focus
- { background: #2196F3;
+ { background: var(--hover_focus-color);
     color: #ffffff;
  }
 /* ==============END PORTFOLIO============== */
