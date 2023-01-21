@@ -143,6 +143,7 @@ background-color: var(--section-secondary-color);
         letter-spacing: 0.03em;
     
         color: var(--secondary-text-color-studio);
+       
 }
 .logo-footer {
     color: #FFFFFF;
@@ -178,6 +179,7 @@ background-color: var(--section-secondary-color);
         letter-spacing: 0.03em;
     
         color: var(--secondary-text-color-studio);
+    
 }
 
 .contact-futer-addres{
